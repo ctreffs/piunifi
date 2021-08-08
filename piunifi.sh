@@ -7,11 +7,6 @@ set -o pipefail
 # Function to output PiUniFi ascii and details of script.
 script_info() {
     cat <<EOF
-${RED}▓▓▓▓▓▓  ${GREEN}▓▓${RESET} ▓▓    ▓▓ ▓▓▓    ▓▓ ▓▓ ▓▓▓▓▓▓▓ ▓▓          
-${RED}▓▓   ▓▓   ${RESET} ▓▓    ▓▓ ▓▓▓▓   ▓▓ ▓▓ ▓▓      ▓▓          
-${RED}▓▓▓▓▓▓  ▓▓${RESET} ▓▓    ▓▓ ▓▓ ▓▓  ▓▓ ▓▓ ▓▓▓▓▓   ▓▓          
-${RED}▓▓      ▓▓${RESET} ▓▓    ▓▓ ▓▓  ▓▓ ▓▓ ▓▓ ▓▓      ▓▓          
-${RED}▓▓      ▓▓${RESET}  ▓▓▓▓▓▓  ▓▓   ▓▓▓▓ ▓▓ ▓▓      ▓▓
                                                                       
 Name:           piunifi-setup.sh
 Description:    Raspberry Pi UniFi Network Controller Setup
